@@ -1,5 +1,4 @@
 
-%This function is called plotSpec 
 
 function plotSpec(signal,fs,freqBand,wl,wo)
 
