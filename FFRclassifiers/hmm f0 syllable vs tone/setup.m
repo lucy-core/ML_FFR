@@ -8,7 +8,7 @@ function params = setup()
     rdir = 'results/';                                                     
     
   % hmm
-    nst = 3;                                                                
+    nst = 3; %number of k folds in the training set                                                                 
     ncw = 50; 
     
   % ffrs
