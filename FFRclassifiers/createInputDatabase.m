@@ -38,6 +38,7 @@ for i=1:length(subs)
         ffr = ffrsTemp(j,:) - mean(pre);
         pre = pre - mean(pre);
         cls = subTemp.sti(j);
+        %artifact rejection 
         if max(abs(ffr))<35
            ffrs = [ffrs;ffr];
            pres = [pres;pre];
